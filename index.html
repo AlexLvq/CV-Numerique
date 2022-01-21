@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- -------------------Font--------------------- -->
+
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- -------------------Link--------------------- -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+    <!-- -------------------Librairie Bootstrap--------------------- -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- -------------------icon--------------------- -->
+    <link rel="icon" type="image/png" sizes="8x8" href="assets\img\logotitlelvq.png">
+    <title>CV off</title>
+
+    <!-- -------------------Feuille CSS--------------------- -->
+    <link rel="stylesheet" href="assets\css\style.css">
+</head>
+
+<body>
+    <div id="page" class="content y mandatory-scroll-snapping">
+        <!-- -------------------Navbar--------------------- -->
+        <nav class="navbar navbar-dark bg-custom fixed-top text-dark" id="nav1">
+            <div class="container navbarcontainer">
+                <a class="navbar-brand" href="#accueil"><img class="imagenavbar" src="assets\img\titrelvq.png"
+                        alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <img class="offcanvas-title titre imagenavbar" id="offcanvasNavbarLabel"
+                            src="assets\img\titrelvq.png" alt="">
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#profil">Profil</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link titre" href="#experiences">Expériences</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link titre" href="#formations">Formations</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link titre" href="#competences">Compétences</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link titre" href="#loisirs">Loisirs</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link titre" href="#contacts">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!------------------------ Navbar Page d'accueil ------------------------->
+        <div id="accueil" class="container-fluid">
+            <div class="row">
+                <div class="col-8">
+                    <div class="container accueil">
+                        <!-- titre -->
+                        <h1 id="lvq" class="titre accueil fs-1" href="#index.html" disabled>Alexandre LEVEQUE
+                        </h1>
+                        <h2 class="titre py-2 fs-3">En formation <span class="cdui">CDUI</span> à la Manu</h2>
+                        <!-- Menu de nav -->
+                        <nav class="d-none d-md-block">
+                            <ul class="nav">
+                                <li class="nav-item">
+                                    <a id="experience" class="nav-link active" href="#profil">Profil</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a id="formation" class="nav-link active" href="#experiences">Expériences</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a id="experience" class="nav-link active" href="#formations">Formations</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a id="competence" class="nav-link active" href="#competences">Compétences</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a id="loisir" class="nav-link active" href="#loisirs">Loisirs</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a id="contact" class="nav-link active" href="#contacts">Contact</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="imgprofil">
+                        <img id="firstimg" class="img-fluid" src="assets\img\nbmoichemise.png" alt="alexandreleveque">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- -------------------Profil--------------------- -->
+        <section id="profil" class="item container verticalcontainer limage appear">
+            <div class="verticaltext text-nowrap">A Propos</div>
+            <div class="container profilcontent espacetop profil">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="formeprofil">
+                            <img class="photohello" src="assets\img\P1000496-removebg-preview.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-6 helloalex">
+                        <h3 class="hello">Hello !</h3>
+                        <h2 class="moicestalex">Moi c'est <span class="alex">Alex</span></h2>
+                        <ul>
+                            <li>Je suis <span class="presentationcolor">souriant</span></li>
+                            <li>Je suis <span class="presentationcolor">motivé</span></li>
+                            <li>Je suis <span class="presentationcolor">créatif</span></li>
+                            <div class="pt-3 contentdescription">
+                                <li>Bienvenu sur mon <span class="presentationcolor">CV</span>, je suis actuellement
+                                    en
+                                    formation de
+                                    Concepteur Designer UI à l'école de la Manu. Sérieux, créatif, capable de
+                                    s’adapter et à
+                                    l’aise avec les outils informatiques, je saurais mettre mes qualités en avant.
+                                </li>
+                            </div>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- -------------------Experiences Caroussel--------------------- -->
+        <section id="experiences" class="item container verticalcontainer limage appearun">
+            <div class="verticaltext text-nowrap">Expériences</div>
+            <div class="container caroussel espacetop experience">
+                <div class="row">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="d-block text-light formcarou" alt="">
+                                    <h2 class="titlemission colormission">Distillerie Guillon</h2>
+                                    <h4 class="colormission">Développement Touristique et Commercial</h4>
+                                    <p class="text-secondary">Mars 2020 - Avril 2020</p>
+                                    <div class="missions">
+                                        <ul>
+                                            <li class="colormission"><i class="fas fa-code"></i> Stratégie de
+                                                communication,
+                                            </li>
+                                            <li class="colormission"><i class="fas fa-code"></i> Prospection,</li>
+                                            <li class="colormission"><i class="fas fa-code"></i> Accueil
+                                                touristique.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="d-block text-light formcarou" alt="">
+                                    <h2 class="titlemission colormission">Vendôme Reception</h2>
+                                    <h4 class="colormission">Responsable Commercial / Marketing</h4>
+                                    <p class="text-secondary">Janvier 2018 - Juillet 2018</p>
+                                    <div class="missions">
+                                        <ul>
+                                            <li class="colormission"><i class="fas fa-code"></i> Développement du
+                                                portefeuille client,
+                                            </li>
+                                            <li class="colormission"><i class="fas fa-code"></i> Veille
+                                                concurrentielle,
+                                            </li>
+                                            <li class="colormission"><i class="fas fa-code"></i> Gestion et maitrise
+                                                du
+                                                logiciel.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="d-block text-light formcarou" alt="">
+                                    <h2 class="titlemission colormission">Carrefour</h2>
+                                    <h4 class="colormission">Assistant Manager</h4>
+                                    <p class="text-secondary">Juin 2017 - Aout 2017</p>
+                                    <div class="missions">
+                                        <ul>
+                                            <li class="colormission"><i class="fas fa-code"></i> Suivi et gestion
+                                                des
+                                                stocks,
+                                            </li>
+                                            <li class="colormission"><i class="fas fa-code"></i> Planification des
+                                                planings,
+                                            </li>
+                                            <li class="colormission"><i class="fas fa-code"></i> Gestion et mise en
+                                                rayon.
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- -------------------Formations Caroussel--------------------- -->
+        <section id="formations" class="item container verticalcontainer limage appeardeux">
+            <div class="verticaltext text-nowrap">Formations</div>
+            <div class="container caroussel espacetop formation">
+                <div class="row">
+                    <div id="carouselIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="d-block text-light formcarou" alt="">
+                                    <h2 class="titlemission colormission">La Manu</h2>
+                                    <h4 class="colormission">Concepteur Designer UI</h4>
+                                    <p class="text-secondary">Novembre 2021 - Aout 2022</p>
+                                    <div class="missions">
+                                        <ul>
+                                            <li class="colormission"><i class="fas fa-code"></i> Concepteur Designer
+                                                UI
+                                                (CDUI).
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="d-block text-light formcarou" alt="">
+                                    <h2 class="titlemission colormission">ESUPCOM</h2>
+                                    <h4 class="colormission">Bachelor Marketing et Communication</h4>
+                                    <p class="text-secondary">Octobre 2019 - Septembre 2020</p>
+                                    <div class="missions">
+                                        <ul>
+                                            <li class="colormission"><i class="fas fa-code"></i> Bachelor Reponsable
+                                                Projet
+                                                Marketing et Communication <br>(RPMC) (en attente de validation).
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="d-block text-light formcarou" alt="">
+                                    <h2 class="titlemission colormission">NEOMA</h2>
+                                    <h4 class="colormission">Master TEMA</h4>
+                                    <p class="text-secondary">Septembre 2016 - Juillet 2019</p>
+                                    <div class="missions">
+                                        <ul>
+                                            <li class="colormission"><i class="fas fa-code"></i> Master Management
+                                                et
+                                                nouvelles Technologies. <br>(Niveau 3ème année).
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <!-- -------------------Compétences--------------------- -->
+        <section id="competences" class="item container verticalcontainer limage appeartrois">
+            <div class="verticaltext text-nowrap">Compétences</div>
+            <div class="container espacetop competence">
+                <!-- Ligne 1 -->
+                <div class="row pb-5">
+                    <div class="col-6">
+                        <h3 class="comptitle">Photoshop</h3>
+                        <div class="progress-container">
+                            <div class="moitie animate">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <h3 class="comptitle">HTML</h3>
+                        <div class="progress-container">
+                            <div class="moitie animate">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Ligne 2 -->
+                <div class="row pb-5">
+                    <div class="col-6">
+                        <h3 class="comptitle">Illustrator</h3>
+                        <div class="progress-container">
+                            <div class="quart animates">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <h3 class="comptitle">CSS</h3>
+                        <div class="progress-container">
+                            <div class="quart animates">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Ligne 3 -->
+                <div class="row pb-5">
+                    <div class="col-6">
+                        <h3 class="comptitle">Adobe XD</h3>
+                        <div class="progress-container">
+                            <div class="moitie animate">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <h3 class="comptitle">JS</h3>
+                        <div class="progress-container">
+                            <div class="quart animates">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Ligne 4 -->
+                <!-- <div class="row pb-5">
+                <div class="col-6">
+                    <h3 class="comptitle">Rien</h3>
+                    <div class="progress-container">
+                        <div class="progress plein">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <h3 class="comptitle">Rien</h3>
+                    <div class="progress-container">
+                        <div class="progress plein">
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+            </div>
+        </section>
+        <!-- -------------------Loisirs--------------------- -->
+        <section id="loisirs" class="item container verticalcontainer limage appearquatre">
+            <div class="verticaltext text-nowrap">Loisirs</div>
+            <div class="container espacetop loisir">
+                <div class="row">
+                    <section class="grid">
+                        <figure>
+                            <img src="assets\img\airsoft.jpg" alt="">
+                            <figcaption>
+                                <div>
+                                    <div>
+                                        <h3>Airsoft</h3>
+                                    </div>
+                                </div>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="assets\img\beer.jpg" alt="">
+                            <figcaption>
+                                <div>
+                                    <div>
+                                        <h3>Friends</h3>
+                                    </div>
+                                </div>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="assets\img\jeuvideo.jpg" alt="">
+                            <figcaption>
+                                <div>
+                                    <div>
+                                        <h3>Jeux-Vidéos</h3>
+                                    </div>
+                                </div>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="assets\img\horse.jpg" alt="">
+                            <figcaption>
+                                <div>
+                                    <div>
+                                        <h3>Equitation</h3>
+                                    </div>
+                                </div>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="assets\img\cinema.jpg" alt="">
+                            <figcaption>
+                                <div>
+                                    <div>
+                                        <h3>Cinéma</h3>
+                                    </div>
+                                </div>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="assets\img\creation.jpg" alt="">
+                            <figcaption>
+                                <div>
+                                    <div>
+                                        <h3>Création</h3>
+                                    </div>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </section>
+                </div>
+            </div>
+        </section>
+        <!-- -------------------Contact--------------------- -->
+        <section id="contacts" class="item parallax-effect footer">
+            <footer id="parallax-effect footer" class="container-fluid bg-custom text-light">
+                <div class="arrow-wrapper">
+                    <a href="#accueil">
+                        <div class="arrow-up"></div>
+                    </a>
+                </div>
+                <a class="row contact text-decoration-none" href="mailto:alexandrelvqq@gmail.com"><button type="button"
+                        class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#contactmodal"
+                        target="_blank">Contactez-moi !</button></a>
+                <div class="row reseaux">
+                    <ul class="reseaux">
+                        <li class="col-md-4 offset-md-4 pt-md-4 list-inline-item">
+                            <a href="https://www.linkedin.com/in/alexandre-leveque-3a1ba710b/" target="_blank"
+                                class="text-light text-decoration-none">Linkedin <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="https://github.com/AlexLvq" target="_blank"
+                                class="text-light text-decoration-none">
+                                GitHub <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://www.instagram.com/alexandre_lvq/" target="_blank"
+                                class="text-light text-decoration-none">
+                                Instagram <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </footer>
+        </section>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="assets\js\script.js"></script>
+</body>
+
+</html>
