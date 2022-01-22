@@ -115,14 +115,14 @@ page.addEventListener('scroll', function () {
 var appearComp = document.querySelectorAll('.appeartrois');
 
 page.addEventListener('scroll', function () {
-    if (page.scrollTop > 2080 && page.scrollTop < 2660) {
+    if (page.scrollTop > 2080 && page.scrollTop < 2700) {
         var delay = 0;
         appearComp.forEach(function (element) {
             element.style.opacity = 1;
             element.style.transition = 'opacity 1s ' + delay + 's';
             delay += 0.5;
         });
-    } else if (page.scrollTop < 2080 || page.scrollTop > 2660) {
+    } else if (page.scrollTop < 2080 || page.scrollTop > 2700) {
         appearComp.forEach(element => {
             element.style.opacity = 0;
         });
@@ -133,19 +133,17 @@ page.addEventListener('scroll', function () {
 
 
 // ScrollAppearDisappear Loisirs --------------------------------------------------
-
-
 var appearLoisir = document.querySelectorAll('.appearquatre');
 
 page.addEventListener('scroll', function () {
-    if (page.scrollTop > 2660 && page.scrollTop < 3300) {
+    if (page.scrollTop > 2700 && page.scrollTop < 3400) {
         var delay = 0;
         appearLoisir.forEach(function (element) {
             element.style.opacity = 1;
             element.style.transition = 'opacity 1s ' + delay + 's';
             delay += 0.5;
         });
-    } else if (page.scrollTop < 2660 || page.scrollTop > 3300) {
+    } else if (page.scrollTop < 2700 || page.scrollTop > 3400) {
         appearLoisir.forEach(element => {
             element.style.opacity = 0;
         });

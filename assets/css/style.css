@@ -42,10 +42,6 @@ a{
 .titre{
     color: #E7E6E0;
 }
-/* #nav1{
-  opacity: 0;
-} */
-
 
 
 
@@ -357,7 +353,7 @@ li{
   /* ==== GRID ==== */
   .grid {
     position: relative;
-    display: grid;
+    display: grid !important;
     grid-template-columns: 1.167fr 0.45fr .225fr 0.3fr 0.8fr;
     grid-template-rows: 0.44fr 0.1875fr 0.4fr;
     grid-gap: var(--gutter);
@@ -572,63 +568,6 @@ li{
     display: inline-block;
     transform: rotate(90deg);
   }
-  
-  @media (max-width: 800px) {
-    .grid figure:nth-child(1) figcaption {
-      padding-left: 0;
-      height: 40px;
-    }
-  }
-  
-  @media (max-width: 600px) {
-    .grid {
-      grid-template-columns: 1fr 1fr;
-      grid-template-rows: 200px;
-      grid-auto-rows: 200px;
-    }
-    .grid figure {
-      grid-column: auto!important;
-      grid-row: auto!important;
-      clip-path: unset!important;
-    }
-    .grid figure:nth-child(2),
-    .grid figure:nth-child(8),
-    .grid figure:nth-child(9),
-    .grid figure:nth-child(10) {
-      grid-row: auto / span 2 !important;
-      width: auto;
-    }
-  }
-  
-  @media (max-width: 420px) {
-    .grid {
-      grid-template-columns: 1fr;
-    }
-    .grid figure {
-      grid-column-end: div 1!important;
-      grid-row: auto!important;
-    }
-  }
-  
-  a,
-  a:visited,
-  a:focus,
-  a:active,
-  a:link {
-    text-decoration: none;
-    outline: 0;
-  }
-  
-  a {
-    color: var(--main-color);
-    transition: .2s ease-in-out;
-  }
-  
-  ul {
-    padding: 0;
-    list-style: none;
-  }
-
 
 
 
@@ -668,4 +607,93 @@ li{
 .list-inline-item{
     display: flex;
     justify-content: space-between;
+}
+
+
+
+
+
+
+/* Media Queries ------------------------------------- */
+@media screen and (max-width: 768px) {
+  *{
+    padding: 0;
+    margin: 0;
+  }
+
+  /* NavBar */
+.imagenavbar{
+  width: 40%;
+  margin-right: 0%;
+}
+.navbar-brand{
+  margin: 0;
+}
+
+
+  /* Accueil */
+  .img-fluid{
+    width: 100%;
+    height: 100%;
+  }
+  .imgprofil{
+    position: relative;
+    height: 300px;
+    width: 300px;
+    border: solid #E7E6E0;
+    border-width: 0px 0px 0px 0px;
+}
+  #responsiveaccueil{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+
+  /* Carrousel */
+  .carousel-item{
+    text-align: center;
+    padding-bottom: 50px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.formcarou{
+    width: 100%;
+    height: 350px;
+    background-color: #47474725;
+    padding-top: 20%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+
+
+/* ProgressBar */
+.progress-container {
+  height: 0.8rem;
+  width: 20rem;
+  border-radius: 0.4rem;
+  background: #000;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+
+
+/* Loisirs */
+.responsiveimg{
+  width: 25%;
+}
+h3{
+  color: #E7E6E0;
+}
+.responsiveloisir{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
 }

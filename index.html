@@ -32,7 +32,7 @@
 
 <body>
     <div id="page" class="content y mandatory-scroll-snapping">
-        <!-- -------------------Navbar--------------------- -->
+        <!-- -------------------Navbar Desktop--------------------- -->
         <nav class="navbar navbar-dark bg-custom fixed-top text-dark" id="nav1">
             <div class="container navbarcontainer">
                 <a class="navbar-brand" href="#accueil"><img class="imagenavbar" src="assets\img\titrelvq.png"
@@ -78,7 +78,7 @@
         <!------------------------ Navbar Page d'accueil ------------------------->
         <div id="accueil" class="container-fluid">
             <div class="row">
-                <div class="col-8">
+                <div class="col-12 col-md-8">
                     <div class="container accueil">
                         <!-- titre -->
                         <h1 id="lvq" class="titre accueil fs-1" href="#index.html" disabled>Alexandre LEVEQUE
@@ -109,7 +109,7 @@
                         </nav>
                     </div>
                 </div>
-                <div class="col-4">
+                <div id="responsiveaccueil" class="col-12 col-md-4">
                     <div class="imgprofil">
                         <img id="firstimg" class="img-fluid" src="assets\img\nbmoichemise.png" alt="alexandreleveque">
                     </div>
@@ -123,12 +123,12 @@
             <div class="verticaltext text-nowrap">A Propos</div>
             <div class="container profilcontent espacetop profil">
                 <div class="row">
-                    <div class="col-6">
-                        <div class="formeprofil">
+                    <div class="col-md-6">
+                        <div class="formeprofil d-none d-md-block">
                             <img class="photohello" src="assets\img\P1000496-removebg-preview.png" alt="">
                         </div>
                     </div>
-                    <div class="col-6 helloalex">
+                    <div class="col-12 col-md-6 helloalex">
                         <h3 class="hello">Hello !</h3>
                         <h2 class="moicestalex">Moi c'est <span class="alex">Alex</span></h2>
                         <ul>
@@ -328,14 +328,14 @@
             <div class="container espacetop competence">
                 <!-- Ligne 1 -->
                 <div class="row pb-5">
-                    <div class="col-6">
+                    <div class="col-12 col-md-6 pb-5 pb-md-0">
                         <h3 class="comptitle">Photoshop</h3>
                         <div class="progress-container">
                             <div class="moitie animate">
                             </div>
                         </div>
                     </div>
-                    <div class="col-6">
+                    <div class="col-12 col-md-6">
                         <h3 class="comptitle">HTML</h3>
                         <div class="progress-container">
                             <div class="moitie animate">
@@ -345,14 +345,14 @@
                 </div>
                 <!-- Ligne 2 -->
                 <div class="row pb-5">
-                    <div class="col-6">
+                    <div class="col-12 col-md-6 pb-5 pb-md-0">
                         <h3 class="comptitle">Illustrator</h3>
                         <div class="progress-container">
                             <div class="quart animates">
                             </div>
                         </div>
                     </div>
-                    <div class="col-6">
+                    <div class="col-12 col-md-6">
                         <h3 class="comptitle">CSS</h3>
                         <div class="progress-container">
                             <div class="quart animates">
@@ -362,14 +362,14 @@
                 </div>
                 <!-- Ligne 3 -->
                 <div class="row pb-5">
-                    <div class="col-6">
+                    <div class="col-12 col-md-6 pb-5 pb-md-0">
                         <h3 class="comptitle">Adobe XD</h3>
                         <div class="progress-container">
                             <div class="moitie animate">
                             </div>
                         </div>
                     </div>
-                    <div class="col-6">
+                    <div class="col-12 col-md-6">
                         <h3 class="comptitle">JS</h3>
                         <div class="progress-container">
                             <div class="quart animates">
@@ -379,14 +379,14 @@
                 </div>
                 <!-- Ligne 4 -->
                 <!-- <div class="row pb-5">
-                <div class="col-6">
+                <div class="col-12 col-md-6 pb-5">
                     <h3 class="comptitle">Rien</h3>
                     <div class="progress-container">
                         <div class="progress plein">
                         </div>
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-12 col-md-6">
                     <h3 class="comptitle">Rien</h3>
                     <div class="progress-container">
                         <div class="progress plein">
@@ -401,7 +401,7 @@
             <div class="verticaltext text-nowrap">Loisirs</div>
             <div class="container espacetop loisir">
                 <div class="row">
-                    <section class="grid">
+                    <section class="grid d-none d-md-block">
                         <figure>
                             <img src="assets\img\airsoft.jpg" alt="">
                             <figcaption>
