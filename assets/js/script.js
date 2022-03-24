@@ -30,6 +30,7 @@ firstimg.addEventListener('mouseleave', function () {
 // ProgressBar --------------------------------------------------
 var cinquante = document.querySelectorAll('.animate');
 var cinq = document.querySelectorAll('.animates');
+var sept = document.querySelectorAll('.animatess');
 
 page.addEventListener('scroll', function () {
     if (page.scrollTop >= 2400) {
@@ -38,6 +39,9 @@ page.addEventListener('scroll', function () {
         })
         cinq.forEach(function (b) {
             b.classList.add('progress');
+        })
+        sept.forEach(function (c) {
+            c.classList.add('progress2');
         })
     }
 })
@@ -51,14 +55,14 @@ page.addEventListener('scroll', function () {
 var appearProfil = document.querySelectorAll('.appear');
 
 page.addEventListener('scroll', function () {
-    if (page.scrollTop > 356 && page.scrollTop < 920) {
+    if (page.scrollTop > 400 && page.scrollTop < 1000) {
         var delay = 0;
         appearProfil.forEach(function (element) {
             element.style.opacity = 1;
             element.style.transition = 'opacity 1s ' + delay + 's';
             delay += 0.5;
         });
-    } else if (page.scrollTop < 356 || page.scrollTop > 920) {
+    } else if (page.scrollTop < 400 || page.scrollTop > 1000) {
         appearProfil.forEach(element => {
             element.style.opacity = 0;
         });
@@ -72,14 +76,14 @@ page.addEventListener('scroll', function () {
 var appearExp = document.querySelectorAll('.appearun');
 
 page.addEventListener('scroll', function () {
-    if (page.scrollTop > 920 && page.scrollTop < 1515) {
+    if (page.scrollTop > 1200 && page.scrollTop < 1715) {
         var delay = 0;
         appearExp.forEach(function (element) {
             element.style.opacity = 1;
             element.style.transition = 'opacity 1s ' + delay + 's';
             delay += 0.5;
         });
-    } else if (page.scrollTop < 920 || page.scrollTop > 1515) {
+    } else if (page.scrollTop < 1200 || page.scrollTop > 1715) {
         appearExp.forEach(element => {
             element.style.opacity = 0;
         });
@@ -94,14 +98,14 @@ page.addEventListener('scroll', function () {
 var appearForm = document.querySelectorAll('.appeardeux');
 
 page.addEventListener('scroll', function () {
-    if (page.scrollTop > 1515 && page.scrollTop < 2080) {
+    if (page.scrollTop > 1900 && page.scrollTop < 2600) {
         var delay = 0;
         appearForm.forEach(function (element) {
             element.style.opacity = 1;
             element.style.transition = 'opacity 1s ' + delay + 's';
             delay += 0.5;
         });
-    } else if (page.scrollTop < 1515 || page.scrollTop > 2080) {
+    } else if (page.scrollTop < 1900 || page.scrollTop > 2600) {
         appearForm.forEach(element => {
             element.style.opacity = 0;
         });
@@ -115,14 +119,14 @@ page.addEventListener('scroll', function () {
 var appearComp = document.querySelectorAll('.appeartrois');
 
 page.addEventListener('scroll', function () {
-    if (page.scrollTop > 2080 && page.scrollTop < 2700) {
+    if (page.scrollTop > 2700 && page.scrollTop < 3300) {
         var delay = 0;
         appearComp.forEach(function (element) {
             element.style.opacity = 1;
             element.style.transition = 'opacity 1s ' + delay + 's';
             delay += 0.5;
         });
-    } else if (page.scrollTop < 2080 || page.scrollTop > 2700) {
+    } else if (page.scrollTop < 2700 || page.scrollTop > 3300) {
         appearComp.forEach(element => {
             element.style.opacity = 0;
         });
@@ -136,14 +140,14 @@ page.addEventListener('scroll', function () {
 var appearLoisir = document.querySelectorAll('.appearquatre');
 
 page.addEventListener('scroll', function () {
-    if (page.scrollTop > 2700 && page.scrollTop < 3400) {
+    if (page.scrollTop > 3400 && page.scrollTop < 4100) {
         var delay = 0;
         appearLoisir.forEach(function (element) {
             element.style.opacity = 1;
             element.style.transition = 'opacity 1s ' + delay + 's';
             delay += 0.5;
         });
-    } else if (page.scrollTop < 2700 || page.scrollTop > 3400) {
+    } else if (page.scrollTop < 3400 || page.scrollTop > 4100) {
         appearLoisir.forEach(element => {
             element.style.opacity = 0;
         });
